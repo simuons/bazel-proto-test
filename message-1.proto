@@ -2,9 +2,5 @@ syntax = "proto3";
 
 package example;
 
-import "google/protobuf/timestamp.proto";
-
-message Message1 {
-    google.protobuf.Timestamp field = 1;
-}
+message Message1 {}
 

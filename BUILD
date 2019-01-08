@@ -3,12 +3,12 @@ load("@io_bazel_rules_scala//scala_proto:scala_proto.bzl", "scala_proto_srcjar",
 proto_library(
     name = "message1_proto",
     srcs = ["message-1.proto"],
-    deps = ["@com_google_protobuf//:timestamp_proto"])
+    deps = ["@com_google_protobuf//:descriptor_proto"])
 
 proto_library(
     name = "message2_proto",
     srcs = ["message-2.proto"],
-    deps = ["@com_google_protobuf//:timestamp_proto"])
+    deps = ["@com_google_protobuf//:descriptor_proto"])
 
 scala_proto_srcjar(
     name = "message1_proto_scala",
