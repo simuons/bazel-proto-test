@@ -22,9 +22,10 @@ scala_proto_srcjar(
 
 scala_library(
     name = "lib_scala",
-    deps = [
+    srcs = [
         ":message1_proto_scala", 
-        ":message2_proto_scala",
+        ":message2_proto_scala"],
+    deps = [
         "@com_google_protobuf//:protobuf_java",
         "@scala_proto_rules_scalapb_lenses",
         "@scala_proto_rules_scalapb_runtime"])

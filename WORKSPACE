@@ -6,7 +6,7 @@ http_archive(
     strip_prefix = "protobuf-3.6.1.2",
 )
 
-rules_scala_version="a89d44f7ef67d93dedfc9888630f48d7723516f7"
+rules_scala_version="326b4ce252c36aeff2232e241ff4bfd8d6f6e071"
 
 http_archive(
     name = "io_bazel_rules_scala",
