@@ -34,7 +34,7 @@ scala_proto_srcjar(
 
 scala_library(
     name = "lib_scala",
-    srcs = [":message1_p", ":message2proto_srcjar"],
+    srcs = [":message1_proto_scala", ":message2_proto_scala"],
     visibility = ["//visibility:public"],
     deps = [
         "@com_google_protobuf//:protobuf_java",
