@@ -1,6 +1,18 @@
 `bazel build :b_java_proto` gives
 
 ```
+* bazel-bin/external/com_google_protobuf/libany_proto-speed.jar
+     0 Fri Jan 01 00:00:00 EET 2010 META-INF/
+       133 Fri Jan 01 00:00:00 EET 2010 META-INF/MANIFEST.MF
+         0 Fri Jan 01 00:00:00 EET 2010 com/
+         0 Fri Jan 01 00:00:00 EET 2010 com/google/
+         0 Fri Jan 01 00:00:00 EET 2010 com/google/protobuf/
+      1241 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/Any$1.class
+     14314 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/Any$Builder.class
+     15809 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/Any.class
+       295 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/AnyOrBuilder.class
+      1019 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/AnyProto$1.class
+      2762 Fri Jan 01 00:00:02 EET 2010 com/google/protobuf/AnyProto.class
 * bazel-bin/liba-speed.jar
          0 Fri Jan 01 00:00:00 EET 2010 META-INF/
        105 Fri Jan 01 00:00:00 EET 2010 META-INF/MANIFEST.MF
