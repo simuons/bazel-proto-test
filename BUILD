@@ -1,4 +1,4 @@
-load("@io_bazel_rules_scala//scala_proto:scala_proto.bzl", "scala_proto_srcjar", "scala_library")
+load("@io_bazel_rules_scala//scala_proto:scala_proto.bzl", "scalapb_proto_library", "scala_library")
 
 proto_library(
     name = "a",
@@ -14,5 +14,10 @@ proto_library(
 
 java_proto_library(
     name = "b_java_proto",
+    deps = [":b"]
+)
+
+scalapb_proto_library(
+    name = "b_scala_proto",
     deps = [":b"]
 )
